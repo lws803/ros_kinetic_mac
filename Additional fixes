@@ -1,0 +1,14 @@
+Additional fixes: 
+
+
+1. Follow this to fix geometric shapes lassimp problem: https://github.com/ros-planning/geometric_shapes/issues/23
+2. catkin config --blacklist diagnostic_aggregator
+3. Run 'catkin build' after each try in kinetic-desktop-ws
+4. Add this to end of /opt/ros/kinetic/setup.bash 
+See if you wish to use python3 or python2
+
+
+	PYTHONPATH="${PYTHONPATH}:/usr/local/lib/python2.7/site-packages"
+	export PYTHONPATH
+
+5. 
